@@ -20,7 +20,14 @@ public class BasicCalculator {
 	 */
 	public static void main(String[] args) {
 		System.out.println("main class");
+        int a=9;
+        int b=99;
+       System.out.println(add(a,b));
+	}
 
+	private static int add(int a, int b) {
+		return (a+b);
+		
 	}
 
 }
