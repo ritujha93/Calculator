@@ -23,10 +23,16 @@ public class BasicCalculator {
         int a=9;
         int b=99;
        System.out.println(add(a,b));
+		multiply(a,b);
 	}
 
 	private static int add(int a, int b) {
 		return (a+b);
+		
+	}
+	
+	private static int multiply(int a, int b) {
+		return (a*b);
 		
 	}
 
