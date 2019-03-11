@@ -19,7 +19,7 @@ public class BasicCalculator {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("main class");
+		System.out.println("main class is stupid");
         int a=9;
         int b=99;
        System.out.println(add(a,b));
